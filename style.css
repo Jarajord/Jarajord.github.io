@@ -24,9 +24,9 @@
 
 }
 .b{
-	background-image: url("7c7c426fa35f33a2b2ac28054aaf6dc7.jpg");
+	background-image: url("worldwide-connection-blue-background-illustration-vector_53876-80910.jpg");
 	font-family: Garamond;
-	font-size: 150px;
+	font-size: 25px;
 	background-color: #2B4F81	;
 	color: white;
 	
@@ -43,4 +43,20 @@
 	  border-radius: 50%;
 	  height: 200px;
 	  width: 200px;
+}
+.a li{
+	display:block;
+	color: #000;
+  padding: 8px 16px;
+ 
+}
+.a ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	  border: 1px solid white;
+	  background-color: beige;
+	  width: 200px;
+
+
 }
