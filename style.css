@@ -1,0 +1,46 @@
+.grid{
+	
+	width: 400px;
+	height:1000px;
+	display:grid;
+	grid-template-columns: 350px 1150px; 
+	grid-template-rows: 250px 650px; 
+}
+.box{
+	
+	color: black;
+	border-radius: 5px;
+	
+}
+.a{
+	font-size: 22px;
+	background-color: black;
+	color: white;
+	height: 1000px;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+
+}
+.b{
+	background-image: url("7c7c426fa35f33a2b2ac28054aaf6dc7.jpg");
+	font-family: Garamond;
+	font-size: 150px;
+	background-color: #2B4F81	;
+	color: white;
+	
+	
+}
+.c{
+	height:750px;
+	background-color:beige;
+	padding-left: 50px;
+	padding-right: 200px;
+	font-size: 15px;
+}
+.a img{
+	  border-radius: 50%;
+	  height: 200px;
+	  width: 200px;
+}
